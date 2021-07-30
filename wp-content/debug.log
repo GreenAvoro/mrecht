@@ -1,0 +1,50 @@
+[28-May-2021 05:39:17 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Global Sidebar" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home/mrechtwekaonline/public_html/wp-includes/functions.php on line 5313
+[28-May-2021 05:39:18 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Global Sidebar" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home/mrechtwekaonline/public_html/wp-includes/functions.php on line 5313
+[28-May-2021 05:39:19 UTC] PHP Warning:  include(/home/mrechtwekaonline/public_html/wp-content/themes/weka../includes/getCategories.php): failed to open stream: No such file or directory in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 5
+[28-May-2021 05:39:19 UTC] PHP Warning:  include(): Failed opening '/home/mrechtwekaonline/public_html/wp-content/themes/weka../includes/getCategories.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 5
+[28-May-2021 05:39:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCategories() in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php:6
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-content/themes/weka/header.php(196): include()
+#1 /home/mrechtwekaonline/public_html/wp-includes/template.php(730): require_once('/home/mrechtwek...')
+#2 /home/mrechtwekaonline/public_html/wp-includes/template.php(676): load_template('/home/mrechtwek...', true, Array)
+#3 /home/mrechtwekaonline/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/mrechtwekaonline/public_html/wp-content/themes/weka/index.php(10): get_header()
+#5 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/mrechtwek...')
+#6 /home/mrechtwekaonline/public_html/wp-blog-header.php(19): require_once('/home/mrechtwek...')
+#7 /home/mrechtwekaonline/public_html/index.php(17): require('/home/mrechtwek...')
+#8 {main}
+  thrown in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 6
+[28-May-2021 05:39:19 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Global Sidebar" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home/mrechtwekaonline/public_html/wp-includes/functions.php on line 5313
+[28-May-2021 05:39:21 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Global Sidebar" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home/mrechtwekaonline/public_html/wp-includes/functions.php on line 5313
+[28-May-2021 05:39:22 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Global Sidebar" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home/mrechtwekaonline/public_html/wp-includes/functions.php on line 5313
+[28-May-2021 05:39:23 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Global Sidebar" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home/mrechtwekaonline/public_html/wp-includes/functions.php on line 5313
+[28-May-2021 05:39:24 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Global Sidebar" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home/mrechtwekaonline/public_html/wp-includes/functions.php on line 5313
+[28-May-2021 05:39:25 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "Global Sidebar" sidebar. Defaulting to "sidebar-1". Manually set the <code>id</code> to "sidebar-1" to silence this notice and keep existing sidebar content. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home/mrechtwekaonline/public_html/wp-includes/functions.php on line 5313
+[28-May-2021 05:40:13 UTC] PHP Warning:  include(/home/mrechtwekaonline/public_html/wp-content/themes/weka../includes/getCategories.php): failed to open stream: No such file or directory in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 5
+[28-May-2021 05:40:13 UTC] PHP Warning:  include(): Failed opening '/home/mrechtwekaonline/public_html/wp-content/themes/weka../includes/getCategories.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 5
+[28-May-2021 05:40:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCategories() in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php:6
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-content/themes/weka/header.php(196): include()
+#1 /home/mrechtwekaonline/public_html/wp-includes/template.php(730): require_once('/home/mrechtwek...')
+#2 /home/mrechtwekaonline/public_html/wp-includes/template.php(676): load_template('/home/mrechtwek...', true, Array)
+#3 /home/mrechtwekaonline/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/mrechtwekaonline/public_html/wp-content/themes/weka/index.php(10): get_header()
+#5 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/mrechtwek...')
+#6 /home/mrechtwekaonline/public_html/wp-blog-header.php(19): require_once('/home/mrechtwek...')
+#7 /home/mrechtwekaonline/public_html/index.php(17): require('/home/mrechtwek...')
+#8 {main}
+  thrown in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 6
+[28-May-2021 05:40:17 UTC] PHP Warning:  include(/home/mrechtwekaonline/public_html/wp-content/themes/weka../includes/getCategories.php): failed to open stream: No such file or directory in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 5
+[28-May-2021 05:40:17 UTC] PHP Warning:  include(): Failed opening '/home/mrechtwekaonline/public_html/wp-content/themes/weka../includes/getCategories.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 5
+[28-May-2021 05:40:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCategories() in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php:6
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-content/themes/weka/header.php(196): include()
+#1 /home/mrechtwekaonline/public_html/wp-includes/template.php(730): require_once('/home/mrechtwek...')
+#2 /home/mrechtwekaonline/public_html/wp-includes/template.php(676): load_template('/home/mrechtwek...', true, Array)
+#3 /home/mrechtwekaonline/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/mrechtwekaonline/public_html/wp-content/themes/weka/index.php(10): get_header()
+#5 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/mrechtwek...')
+#6 /home/mrechtwekaonline/public_html/wp-blog-header.php(19): require_once('/home/mrechtwek...')
+#7 /home/mrechtwekaonline/public_html/index.php(17): require('/home/mrechtwek...')
+#8 {main}
+  thrown in /home/mrechtwekaonline/public_html/wp-content/themes/weka/templates/dropdown.html.php on line 6

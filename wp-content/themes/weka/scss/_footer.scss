@@ -1,0 +1,132 @@
+#footer {
+	background-color: $secondary-color;
+
+	p {
+		color: #ffffff;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.payment-icons {
+		margin-bottom: 45px;
+
+		img {
+			width: 200px;
+			height: auto;
+		}
+	}
+
+	.social-icons {
+		margin-top: 25px;
+
+		img {
+			height: 26px;
+			width: auto;
+			margin-right: 7px;
+		}
+	}
+
+}
+
+.footer-column {
+
+	h4 {
+		margin-top: 0;
+	}
+
+	@media (min-width: 1200px) {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.footer-mailchimp {
+	background-color: $primary-color;
+	padding: 42px 0 30px;
+
+	input {
+		width: 100% !important;
+		height: 30px;
+		margin-bottom: 12px;
+		color: #ffffff;
+
+		&::placeholder {
+			color: #ffffff;
+			font-size: 11px;
+		}
+	}
+
+	h5 {
+		font-weight: 900;
+		color: #ffffff;
+
+		& .light {
+			font-weight: 300 !important;
+		}
+	}
+
+	&--text {
+		padding-left: 10px !important;
+		border: 1px solid #ffffff;
+		background-color: $primary-color;
+
+		&::placeholder {
+			color: #000000;
+			font-size: 11px;
+		}
+	}
+
+	&--submit {
+		background-color: #000000;
+		color: #ffffff;
+		font-weight: 500;
+		border: none;
+		font-size: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 !important;
+	}
+
+	@media (max-width: 991px) {
+		h5 {
+			margin-top: 0;
+			text-align: center;
+		}
+	}
+}
+
+.footer-brands {
+	display: flex;
+	flex-wrap: wrap;
+
+	&--logo {
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+		margin-bottom: 15px;
+
+		@media (max-width: 767px) {
+			justify-content: center;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+			max-width: 140px;
+		}
+
+		@media (max-width: 1199px) {
+			width: 50%;
+		}
+	}
+}
+
+.business-details {
+	margin-top: 28px;
+	color: #ffffff;
+	line-height: 22px;
+}

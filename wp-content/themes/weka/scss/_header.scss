@@ -1,0 +1,299 @@
+.topbar-wrapper {
+	width: 100%;
+	border-bottom: 1px solid #bfbfbf;
+
+	@media (max-width: 991px) {
+		display: none;
+	}
+}
+
+.topbar {
+	display: flex;
+	height: 35px;
+	align-items: center;
+	font-size: 11px;
+	justify-content: space-between;
+
+	&--left, &--right {
+		display: flex;
+	}
+
+	.item {
+		display: flex;
+		align-items: center;
+
+		&--text {
+			font-weight: 700;
+		}
+
+		&:not(:last-child) {
+			padding-right: 10px;
+
+			span {
+				padding-right: 10px;
+				border-right: 1.5px solid $secondary-color;
+			}
+		}
+
+		&.emphasis {
+			span {
+				background-color: #e1e1e1;
+				color: $primary-color;
+				padding: 3px 5px;
+				border-radius: 3px;
+				font-weight: 600;
+			}
+		}
+
+		span {
+			line-height: 11px;	
+			text-transform: uppercase;
+		}
+
+		i {
+			color: $primary-color;
+		}
+
+		a {
+			color: $secondary-color;
+			display: flex;
+			align-items: center;
+
+			&:hover {
+				color: $primary-color;
+				text-decoration: none !important;
+			}
+		}
+
+		img {
+			height: 18px;
+			width: auto;
+		}
+	}
+
+	&--right {
+		.item {
+			span {
+				margin-left: 5px;
+			}
+		}
+	}
+}
+
+.mobilenav {
+	.navbar-container {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.mobile-nav {
+			position: absolute;
+			top: 24px;
+			left: 0;
+
+			.navbar-toggle {
+				margin: 0;
+				border: 1px solid $primary-color;
+
+				span {
+					width: 25px;
+				}
+			}
+		}
+
+		.mobile-icons {
+			position: absolute;
+			top: 28px;
+			right: 0;
+			display: flex;
+			z-index: 1000;
+		}
+
+		.icon-container {
+			margin-left: 10px;
+
+			img {
+				height: 25px;
+				width: auto;
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.topbar {
+
+		.item {
+			a {
+				display: block;
+			}
+		}
+	}
+}
+
+.navbar {
+	border-radius: 0 !important;
+}
+
+.navbar-fixed-top {
+	top: unset !important;
+}
+
+.navbar-inverse {
+	background-color: #ffffff !important;
+	border: 0 !important;
+	margin-bottom: 0 !important;
+
+	@media (max-width: 767px) {
+		margin-bottom: 0 !important;
+	}
+}
+
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&--logo {
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		img {
+			width: 220px;
+			height: auto;
+		}
+	}
+
+	&--info {
+		display: flex;
+		align-items: center;
+		padding: 0 12px;
+
+		img {
+			height: 38px;
+			width: auto;
+		}
+
+		.details {
+			margin-left: 10px;
+
+			p {
+				margin: 0;
+				font-size: 12px;
+				line-height: 14px;
+			}
+		}
+
+		a {
+			color: $secondary-color;
+			text-decoration: none !important;
+
+			&:hover, &:active, &:focus {
+				color: $primary-color;
+			}
+		}
+
+	}
+
+	&--right {
+		display: flex;
+
+		.icon-container {
+			margin-left: 18px;
+
+			img {
+				height: 30px;
+				width: auto;
+			}
+		}
+	}
+}
+
+.navbar-inverse.mobilenav {
+	.navbar-brand {
+		display: flex;
+		align-items: center;
+	
+		img {
+			width: 235px;
+			height: auto;
+
+			@media (max-width: 450px) {
+				width: 145px;
+			}
+		}
+	}
+
+	.navbar-toggle {
+		margin-top: 20px;
+
+		.icon-bar {
+			background-color: $primary-color !important;
+		}
+
+		&:hover {
+			background-color: $primary-color !important;
+
+			.icon-bar {
+				background-color: #ffffff !important;
+			}
+		}
+
+		&:focus {
+			background-color: transparent;
+		} 
+	}
+	
+}
+
+.search-form {
+	position: relative;
+	display: flex;
+
+	&--input {
+		padding: 7px 7px 7px 18px !important;
+		width: 165px !important;
+		border: none;
+		border-radius: 5px 0 0 5px;
+		background-color: #e1e1e1;
+
+		&::placeholder {
+			color: #898989;
+			font-size: 11px;
+		}
+	}
+
+	&--submit {
+		background-color: #e1e1e1;
+		border-radius: 0 5px 5px 0;
+		padding: 6px 10px;
+		border: none;
+
+		img {
+			height: 20px;
+    		width: auto;
+		}
+	}
+}
+
+.mobile-dropdown-search {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	
+	.search-form--input {
+		width: 100%;
+	}
+}
+
+#mega-menu-wrap-primary_menu {
+	font-family: montserrat, sans-serif;
+}
+
+
+@media (min-width: 768px) {
+	#mega-menu-primary_menu {
+		display: flex !important;
+		justify-content: space-between;
+	}
+}

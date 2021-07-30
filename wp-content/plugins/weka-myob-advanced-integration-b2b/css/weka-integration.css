@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.invoices-main, .invoices-header, .invoices-line-header {
+	overflow:auto;
+}
+.invoices-header {
+	padding: 10px 15px;
+}
+
+.invoices-line-header {
+	border-bottom: 1px solid #ddd !important;
+}
+
+.invoices-line {
+	border-top:none !important;
+}
+.weka-loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  display:none;
+}
+
+.resync-Weka-Advanced {
+	float:right;
+}
+.resync-weka-li {
+	overflow:hidden;
+}
+#weka_advanced_number {
+	font-weight:bold;
+}

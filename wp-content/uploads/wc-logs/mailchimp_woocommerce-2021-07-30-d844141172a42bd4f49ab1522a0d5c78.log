@@ -1,0 +1,14 @@
+2021-07-30T03:12:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id d0b584905f3046efde84c3dedae8de31
+2021-07-30T03:12:39+00:00 NOTICE abandoned_cart.success :: email: russell.gecelter@gmail.com :: checkout_url: https://mrecht.wekaonline.co.nz/checkout/?mc_cart_id=d0b584905f3046efde84c3dedae8de31
+2021-07-30T03:12:39+00:00 NOTICE cart.member.updated :: Updated russell.gecelter@gmail.com subscriber status to subscribed and language to en
+2021-07-30T03:15:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 495
+2021-07-30T03:15:47+00:00 NOTICE debug :: Order ID 495 was pending and is now cancelled :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-07-30T03:17:39+00:00 NOTICE order_sumbit :: #495 has a financial status of cancelled and was skipped.
+2021-07-30T03:21:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 9bca1f8cf4e0e4777a6e2d5cebc780ec
+2021-07-30T03:22:35+00:00 NOTICE abandoned_cart.success :: email: davor@mrecht.com.au :: checkout_url: http://mrecht.wekaonline.co.nz/checkout/?mc_cart_id=9bca1f8cf4e0e4777a6e2d5cebc780ec
+2021-07-30T03:22:36+00:00 NOTICE cart.member.updated :: Updated davor@mrecht.com.au subscriber status to transactional and language to en

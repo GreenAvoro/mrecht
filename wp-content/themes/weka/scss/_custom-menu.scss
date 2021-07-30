@@ -1,0 +1,101 @@
+.menu-container {
+    ul {
+        list-style-type: none;
+    }
+}
+
+.custom-mega-menu {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    ul {
+        padding-left: 10px;
+    }
+
+    > .mega-menu-item {
+        margin: 0 0px 0 0;
+        display: inline-block;
+        height: auto;
+        vertical-align: middle;
+        padding: 12px 30px;
+        border-radius: 5px 5px 0 0;
+        cursor: pointer;
+
+        &:hover, &.active {
+            background-color: #ffffff;
+
+            > .mega-menu-link {
+                color: $primary-color;
+            }
+        }
+
+        &:hover {
+            > .mega-sub-menu {
+                display: block;
+            }
+        }
+
+        > .mega-menu-link {
+            text-transform: uppercase;
+            color: #ffffff;
+            text-decoration: none !important;
+            font-weight: 500;
+        }
+
+        > .mega-sub-menu {
+            display: none;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            z-index: 999;
+            background-color: #ffffff;
+            padding: 25px 32px 32px 32px;
+            margin-top: 12px;
+            border-top: 0;
+
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+            -ms-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+            -o-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.1);
+
+            @media only screen and (min-width: 1025px) {
+                -moz-column-count: 5;
+                // -moz-column-gap: 48px;
+                -webkit-column-count: 5;
+                // -webkit-column-gap: 48px;
+                column-count: 5;
+                // column-gap: 48px;
+            }
+
+            @media only screen and (max-width: 1024px) {
+                -moz-column-count: 4;
+                // -moz-column-gap: 48px;
+                -webkit-column-count: 4;
+                // -webkit-column-gap: 48px;
+                column-count: 4;
+                // column-gap: 48px;
+            }
+
+            > .mega-menu-item {
+                margin-bottom: 15px;
+
+                > a.mega-menu-link {
+                    font-weight: 900;
+                }
+            }
+
+            a.mega-menu-link {
+                color: #000000;
+                text-decoration: none !important;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

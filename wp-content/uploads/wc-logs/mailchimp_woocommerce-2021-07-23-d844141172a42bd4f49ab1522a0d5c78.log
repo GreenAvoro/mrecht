@@ -1,0 +1,3 @@
+2021-07-23T03:45:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id d0b584905f3046efde84c3dedae8de31
+2021-07-23T05:33:45+00:00 NOTICE abandoned_cart.success :: email: russell.gecelter@gmail.com :: checkout_url: http://mrecht.wekaonline.co.nz/checkout/?mc_cart_id=d0b584905f3046efde84c3dedae8de31
+2021-07-23T05:33:45+00:00 NOTICE cart.member.updated :: Updated russell.gecelter@gmail.com subscriber status to subscribed and language to en

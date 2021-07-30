@@ -1,0 +1,77 @@
+2021-07-06T01:24:03+00:00 CRITICAL Uncaught Error: Call to a member function get_states() on array in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php:492
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(343): weka_custom_registration('', '', 'weka_custom_reg...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(weka_c...', 'do_shortcode_ta...', '[weka_custom_re...')
+#3 /home/mrechtwekaonline/public_html/wp-includes/class-wp-hook.php(292): do_shortcode('[weka_custom_re...')
+#4 /home/mrechtwekaonline/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[weka_custom_re...', Array)
+#5 /home/mrechtwekaonline/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '[weka_custom_re...')
+#6 /home/mrechtwekaonline/public_html/wp-content/themes/weka/page.php(24): the_content()
+#7 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/ in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php on line 492
+
+2021-07-06T01:27:58+00:00 CRITICAL Uncaught Error: Call to a member function get_states() on array in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php:492
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(343): weka_custom_registration('', '', 'weka_custom_reg...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(weka_c...', 'do_shortcode_ta...', '[weka_custom_re...')
+#3 /home/mrechtwekaonline/public_html/wp-includes/class-wp-hook.php(292): do_shortcode('[weka_custom_re...')
+#4 /home/mrechtwekaonline/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[weka_custom_re...', Array)
+#5 /home/mrechtwekaonline/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '[weka_custom_re...')
+#6 /home/mrechtwekaonline/public_html/wp-content/themes/weka/page.php(24): the_content()
+#7 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/ in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php on line 492
+
+2021-07-06T01:29:01+00:00 CRITICAL Uncaught Error: Call to a member function get_states() on array in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php:492
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(343): weka_custom_registration('', '', 'weka_custom_reg...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(weka_c...', 'do_shortcode_ta...', '[weka_custom_re...')
+#3 /home/mrechtwekaonline/public_html/wp-includes/class-wp-hook.php(292): do_shortcode('[weka_custom_re...')
+#4 /home/mrechtwekaonline/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[weka_custom_re...', Array)
+#5 /home/mrechtwekaonline/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '[weka_custom_re...')
+#6 /home/mrechtwekaonline/public_html/wp-content/themes/weka/page.php(24): the_content()
+#7 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/ in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php on line 492
+
+2021-07-06T01:31:25+00:00 CRITICAL Uncaught Error: Call to a member function get_states() on array in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php:492
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(343): weka_custom_registration('', '', 'weka_custom_reg...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(weka_c...', 'do_shortcode_ta...', '[weka_custom_re...')
+#3 /home/mrechtwekaonline/public_html/wp-includes/class-wp-hook.php(292): do_shortcode('[weka_custom_re...')
+#4 /home/mrechtwekaonline/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[weka_custom_re...', Array)
+#5 /home/mrechtwekaonline/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '[weka_custom_re...')
+#6 /home/mrechtwekaonline/public_html/wp-content/themes/weka/page.php(24): the_content()
+#7 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/ in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php on line 492
+
+2021-07-06T01:32:33+00:00 CRITICAL Uncaught Error: Call to a member function get_states() on array in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php:492
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(343): weka_custom_registration('', '', 'weka_custom_reg...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(weka_c...', 'do_shortcode_ta...', '[weka_custom_re...')
+#3 /home/mrechtwekaonline/public_html/wp-includes/class-wp-hook.php(292): do_shortcode('[weka_custom_re...')
+#4 /home/mrechtwekaonline/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[weka_custom_re...', Array)
+#5 /home/mrechtwekaonline/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '[weka_custom_re...')
+#6 /home/mrechtwekaonline/public_html/wp-content/themes/weka/page.php(24): the_content()
+#7 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/ in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php on line 492
+
+2021-07-06T01:32:50+00:00 CRITICAL Uncaught Error: Call to a member function get_countries() on array in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php:492
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(343): weka_custom_registration('', '', 'weka_custom_reg...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(weka_c...', 'do_shortcode_ta...', '[weka_custom_re...')
+#3 /home/mrechtwekaonline/public_html/wp-includes/class-wp-hook.php(292): do_shortcode('[weka_custom_re...')
+#4 /home/mrechtwekaonline/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[weka_custom_re...', Array)
+#5 /home/mrechtwekaonline/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '[weka_custom_re...')
+#6 /home/mrechtwekaonline/public_html/wp-content/themes/weka/page.php(24): the_content()
+#7 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/ho in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php on line 492
+
+2021-07-06T01:33:40+00:00 CRITICAL Uncaught Error: Call to a member function __get() on array in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php:492
+Stack trace:
+#0 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(343): weka_custom_registration('', '', 'weka_custom_reg...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/mrechtwekaonline/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(weka_c...', 'do_shortcode_ta...', '[weka_custom_re...')
+#3 /home/mrechtwekaonline/public_html/wp-includes/class-wp-hook.php(292): do_shortcode('[weka_custom_re...')
+#4 /home/mrechtwekaonline/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[weka_custom_re...', Array)
+#5 /home/mrechtwekaonline/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '[weka_custom_re...')
+#6 /home/mrechtwekaonline/public_html/wp-content/themes/weka/page.php(24): the_content()
+#7 /home/mrechtwekaonline/public_html/wp-includes/template-loader.php(106): include('/home/mrech in /home/mrechtwekaonline/public_html/wp-content/themes/weka/functions.php on line 492
+
